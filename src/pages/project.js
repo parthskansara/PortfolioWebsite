@@ -83,8 +83,6 @@ export async function getServerSideProps() {
       date: pub.date ?? null,
       link: pub.link ?? null,
     }));
-    
-    console.log(`Sanitized Publications: ${JSON.stringify(sanitizedPublications)}`);
 
     return {
         props:{

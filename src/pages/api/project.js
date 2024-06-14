@@ -23,13 +23,15 @@ export default async function handler(req, res) {
     if (req.method === 'GET') {
       const projects = await Project.find({});
       res.status(200).json({ projects });
-    } else if (req.method === 'POST') {
-      const { name, description, link } = req.body;
-      const newProject = new Project({ name, description, link });
-      await newProject.save();
-      res.status(201).json({ project: newProject });
-    } else {
-      res.setHeader('Allow', ['GET', 'POST']);
+    } 
+    // else if (req.method === 'POST') {
+    //   const { name, description, link } = req.body;
+    //   const newProject = new Project({ name, description, link });
+    //   await newProject.save();
+    //   res.status(201).json({ project: newProject });
+    // } 
+    else {
+      res.setHeader('Allow', ['GET']);
       res.status(405).end(`Method ${req.method} Not Allowed`);
     }
   }
