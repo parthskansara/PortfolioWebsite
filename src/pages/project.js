@@ -18,26 +18,27 @@ function Projects({sanitizedProjects, sanitizedPublications}) {
       </Head>
       <main className='p-4'>
       {/* <p className='w-[100vw] text-center font-bold text-6xl mb-4'>Projects</p> */}
-      <Tabs defaultValue="projects" className="">
-        <TabsList>
-          <TabsTrigger value="projects">Projects</TabsTrigger>
-          <TabsTrigger value="publications">Publications</TabsTrigger>
+      <Tabs defaultValue="projects">
+        <TabsList className="py-6 px-1">
+          <TabsTrigger value="projects" className="text-lg">projects</TabsTrigger>
+          <TabsTrigger value="publications" className="text-lg">publications</TabsTrigger>
         </TabsList>
         <TabsContent value="projects">
-          <div className="grid grid-cols-1 sm:grid-cols-3 md: grid-cols-4 gap-4">            
+          <div className="grid mx-32 grid-cols-1 sm:grid-cols-2 md: grid-cols-4 gap-4">            
             {sanitizedProjects.map((project) => (
               <ProjectTile
-                  key={project.id}
-                  name={project.name}
-                  // description={project.description}
-                  description="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
-                  link={project.link}
+                key={project.id}
+                name={project.name}
+                description={project.description}
+                date={project.date}  
+                link={project.link}
+                tech={project.tech}
               />
             ))}
           </div>
         </TabsContent>
         <TabsContent value="publications">
-          <div className="grid grid-cols-1 sm:grid-cols-3 md: grid-cols-4 gap-4"> 
+          <div className="grid mx-32 grid-cols-1 sm:grid-cols-2 md: grid-cols-4 gap-4"> 
           {sanitizedPublications.map((pub) => (
             <ProjectTile
                 key={pub.id}
@@ -45,6 +46,8 @@ function Projects({sanitizedProjects, sanitizedPublications}) {
                 description={pub.description}
                 date={pub.date}  
                 link={pub.link}
+                tech={pub.tech}
+                citations={pub.citations}
             />
           ))}
         </div>
@@ -73,7 +76,9 @@ export async function getServerSideProps() {
       id: project._id ?? null,
       name: project.name ?? null,
       description: project.description ?? null,
+      date: project.date ?? null,
       link: project.link ?? null,
+      tech: project.tech ?? null
     }));
 
     const sanitizedPublications = pubs.map(pub => ({
@@ -82,6 +87,8 @@ export async function getServerSideProps() {
       description: pub.description ?? null,
       date: pub.date ?? null,
       link: pub.link ?? null,
+      tech: pub.tech ?? null, 
+      citations: pub.citations ?? null,
     }));
 
     return {

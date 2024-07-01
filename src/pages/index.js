@@ -10,10 +10,10 @@ export default function Home() {
             <Head>
                 <title>Parth Kansara</title>
                 <meta name="Portfolio Website" content="A Snapshot of my entire Journey"/>
-                <link rel="icon" href="/logo.png"/>
+                <link rel="icon" href="/icon/favicon.png"/>
             </Head>
-            <div className='home-page flex flex-row justify-center gap-8'>
-                <div className='w-[40vw] justify-end'>
+            <div className='home-page flex flex-row justify-center mt-[130px] gap-8'>
+                <div className='w-[40vw]  justify-end'>
                     <Avatar className='w-[40vh] h-[40vh] border-4 border-black ml-auto'>
                         <AvatarImage src="/a2.png" />
                         <AvatarFallback>Parth Kansara</AvatarFallback>

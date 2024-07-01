@@ -1,0 +1,79 @@
+[
+    {
+        "name": "AI-driven Exploration of Patient Characteristics in Clinical Trials",
+        "description": "Scraped the clinicaltrials.gov website, and implemented prompt engineering on OpenAI's GPT-3.5 Turbo via Chat Completion API to identify inclusion and exclusion criteria to assess patient representativeness and safety measures",
+        "date": "August 2023",
+        "link": [],
+        "tech": "[Python 3, Selenium, BeautifulSoup4, OpenAI Chat Completion API]"
+    },
+    {
+        "name": "A Review on In-Memory Caching Systems: Scalability, Efficiency and Optimizations",
+        "description": "Exploring Segcache and related in-memory caching systems, focusing on scalability, efficiency, and optimizations in key-value stores like Memcached and Redis",
+        "date": "May 2023",
+        "link": [],
+        "tech": []
+    },
+    {
+        "name": "The Evolution of Operating Systems: A Comprehensive Review of 19 Milestone Papers",
+        "description": "Studied OS design, system calls, schedulers, concurrency, memory allocation, file systems, virtualization, and testing",
+        "date": "March 2023",
+        "link": "https://github.com/parthskansara/Operating-Systems/blob/main/README.md",
+        "tech": []
+    },
+    {
+        "name": "Turning Labels into Images: A Pix2Pix Based Facade Generator",
+        "description": "Implemented the pix2pix GAN model for image-to-image translation, training with L1 and L1 + cGAN loss, along with spectral normalization for stabilization and performance improvement",
+        "date": "December 2022",
+        "link": "https://github.com/parthskansara/pix2pix",
+        "tech": "[Python 3, OpenCV, PyTorch]"
+    },
+    {
+        "name": "TelePhysio: Telemedicine Platform for Remote Physical Therapy",
+        "description": "Developed a Java based telemedicine application for remote physical therapy, containerized with Docker and managed on AWS using EC2 instances for hosting, along with RDS for database services",
+        "date": "October 2022",
+        "link": [],
+        "tech": "[Java, Spring Framework, Docker, Minikube, MySQL, WebRTC]"
+    },
+    {
+        "name": "Pcapture: PCAP Analysis Tool for TCP and HTTP Flows in Networking",
+        "description": "Built a tool for analysing and assessing the attributes of the TCP & HTTP protocols from PCAP files using the dpkt library",
+        "date": "September 2022",
+        "link": "https://github.com/parthskansara/PCAP-Analyser",
+        "tech": "[Python 3, dpkt library]"
+    },
+    {
+        "name": "DomainHunter: DNS/DNSSEC resolver",
+        "description": "Developed a DNS resolver from scratch with support for DNSSEC to strengthen the authentication based on public key cryptography using the dnsPython 3 library, along with an in-built dig tool",
+        "date": "September 2022",
+        "link": "https://github.com/parthskansara/PCAP-Analyser",
+        "tech": "[Python 3, dnsPython 3 library]"
+    },
+    {
+        "name": "Visualization of Net Benefit CDF vs Cost of Reinsurance",
+        "description": "Built interactive visualization using Chart.js for users to gain financial insights with PHP and MyMySQL for data retrieval",
+        "date": "February 2022",
+        "link": [],
+        "tech": "[HTML, CSS, JavaScript, JSP, Java, PHP, MySQL]"
+    },
+    {
+        "name": "EduStack: A Smart e-Learning Platform",
+        "description": "Engineered a Python 3 full-stack web application, facilitating community-based education exchange via REST APIs",
+        "date": "March 2021",
+        "link": [],
+        "tech": "[Python 3, Django, Django REST framework, JavaScript, Node.js, React, MySQL]"
+    },
+    {
+        "name": "Vision and Language Navigation using Minimal Voice Instructions",
+        "description": "Designed a navigation algorithm using YOLOv3 and a graph-based path planning module for the traversal of a virtual agent in a 3D space using the Matterport API",
+        "date": "March 2021",
+        "link": [],
+        "tech": "[C++, Python 3, JavaScript, HTML, GCP, Shell scripting]"
+    },
+    {
+        "name": "Customized Data Acquisition System for an All-terrain Vehicle",
+        "description": "Implemented a customized data acquisition system with multiple electric sensors, developed Arduino firmware for signal processing and Zigbee wireless transmission, and created a React.js web-based dashboard for real-time data visualization and analytics validation",
+        "date": "August 2019",
+        "link": [],
+        "tech": "[C++, React.js, Python 3]"
+    }
+]
