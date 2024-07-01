@@ -48,8 +48,8 @@ const ProjectTile = ({key, name, description, date, link, tech, citations}) => {
                 <CardContent>
                         {   
                             tech &&
-                            tech.map((t) => (
-                                <Badge className="mx-1 ">
+                            tech.map((t, index) => (
+                                <Badge key={index} className="mx-1 ">
                                     {t}
                                 </Badge>
                             ))

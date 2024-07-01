@@ -19,10 +19,12 @@ export default function Home() {
                         <AvatarFallback>Parth Kansara</AvatarFallback>
                     </Avatar>
                 </div>
-                <div className='text-xl w-[50vw] my-auto '>
+                <div className='text-xl w-[50vw] my-auto '>                    
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     <h2>Hi, I'm</h2>
                     <span className='text-6xl font-bold mb-2'>Parth Kansara</span>
                     <Separator className='my-2'/>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     <p>I'm a software developer, with a proficiency in Java, Python and JavaScript.</p>
                 </div>
                 

@@ -80,8 +80,8 @@ const WorkTimeline = ({experience}) => {
                                             }
                                         </CollapsibleContent>
                                         <div className="mt-2">
-                                            {exp.tech.map((t) => (
-                                                <Badge className="mx-1 ">
+                                            {exp.tech.map((t, index) => (
+                                                <Badge key={index} className="mx-1 ">
                                                     {t}
                                                 </Badge>
                                             ))}
