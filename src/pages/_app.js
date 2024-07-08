@@ -19,6 +19,7 @@ import {
 import { Separator } from "@/components/ui/separator"
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 
@@ -46,6 +47,7 @@ const App = ({Component, pageProps}) => {
           <meta name="Portfolio Website" content="A Snapshot of my entire Journey"/>
           <link rel="icon" href="/icons/favicon.png"/>
         </Head>
+        <GoogleAnalytics gaId='G-EJZNF5DM6J'/>
         <div className='flex justify-between items-center mt-4'>
           <Link href="/">
             <img className="h-[50px] ml-8" src="/logo/Logo-2.png" alt="Parth Kansara - Logo" />
