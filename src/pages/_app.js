@@ -133,6 +133,11 @@ const App = ({Component, pageProps}) => {
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
+                <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "text-lg py-4", currentPath === "/notes" && "border-2 border-black")} href="/notes">
+                  notes
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
                 <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "text-lg py-4", currentPath === "/contact" && "border-2 border-black")} href="/contact">
                   contact
                 </NavigationMenuLink>
