@@ -85,6 +85,11 @@ function Contact() {
                                                 className="h-[10vh] w-[10vh]" 
                                                 src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif"
                                                 alt="Badge - 50 Days 2024"
+                                            />                                             
+                                            <img 
+                                                className="h-[10vh] w-[10vh]" 
+                                                src="https://assets.leetcode.com/static_assets/public/images/badges/dcc-2024-7.png"
+                                                alt="Daily Coding Challenge - July 2024"
                                             />
                                         </div>
                                     }
