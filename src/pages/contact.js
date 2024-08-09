@@ -88,7 +88,7 @@ function Contact() {
                                             />                                             
                                             <img 
                                                 className="h-[10vh] w-[10vh]" 
-                                                src="https://assets.leetcode.com/static_assets/public/images/badges/dcc-2024-7.png"
+                                                src="https://assets.leetcode.com/static_assets/public/images/badges/2024/gif/2024-07.gif"
                                                 alt="Daily Coding Challenge - July 2024"
                                             />
                                         </div>
