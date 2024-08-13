@@ -56,38 +56,37 @@ function Contact() {
     return (
         <div>
             {/* eslint-disable-next-line react/no-unescaped-entities */}
-            <p className="text-center text-5xl font-bold mt-[8vh] mb-[5vh]">Let's Connect!</p>
+            <p className="text-center text-3xl lg:text-5xl font-bold mt-[8vh] mb-[5vh]">Let's Connect!</p>
             <div className="flex justify-center">
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:grid-cols-3 gap-6 max-w-4xl">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 md:grid-cols-3 gap-6 max-w-4xl">
                     
                     {contactLinks.map((link, index) => (
                         <Link key={index} href={link.href} target="_blank" rel="noopener noreferrer">                
-                            <Card className="w-[60vw] sm:w-[40vw] md:w-[15vw]">
+                            <Card className="w-[40vw] sm:w-[40vw] md:w-[15vw]">
                                 <CardHeader>
-                                    <CardTitle className="flex justify-center text-xl ">{link.title}</CardTitle>
-                                    <CardDescription className="flex justify-center">{link.description}</CardDescription>
+                                    <CardTitle className="flex justify-center text-md lg:text-xl ">{link.title}</CardTitle>
+                                    <CardDescription className="flex text-xs lg:text-base justify-center">{link.description}</CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex justify-center text-3xl">
                                     <div className="flex flex-col justify-center items-center">
-                                        {link.icon}
-                                    
+                                        {link.icon}                                   
                                     
                                     {
                                         link.title === "Leetcode" &&
                                         
                                         <div className="flex justify-center items-center mt-4">    
                                             <img 
-                                                className="h-[10vh] w-[10vh]" 
+                                                className="h-[5vh] lg:h-[10vh] lg:w-[10vh]" 
                                                 src="https://assets.leetcode.com/static_assets/marketing/2023-50.gif"
                                                 alt="Badge - 50 Days 2023"
                                             /> 
                                             <img 
-                                                className="h-[10vh] w-[10vh]" 
+                                                className="h-[5vh] lg:h-[10vh] lg:w-[10vh]" 
                                                 src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif"
                                                 alt="Badge - 50 Days 2024"
                                             />                                             
                                             <img 
-                                                className="h-[10vh] w-[10vh]" 
+                                                className="h-[5vh] lg:h-[10vh] lg:w-[10vh]" 
                                                 src="https://assets.leetcode.com/static_assets/public/images/badges/2024/gif/2024-07.gif"
                                                 alt="Daily Coding Challenge - July 2024"
                                             />
