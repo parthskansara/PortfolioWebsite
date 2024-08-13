@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import "/src/styles/globals.css";
 import { Inter as FontSans } from "next/font/google"
@@ -36,6 +36,19 @@ const App = ({Component, pageProps}) => {
   const pathWithQuery = router.asPath; 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [experienceOpen, setExperienceOpen] = useState(false)
+
+  useEffect(() => {
+    const handleRouteChange = () => {
+      setIsMobileMenuOpen(false);
+      setExperienceOpen(false);
+    };
+
+    router.events.on('routeChangeStart', handleRouteChange);
+
+    return () => {
+      router.events.off('routeChangeStart', handleRouteChange);
+    };
+  }, [router]);
 
   return (
     
@@ -156,7 +169,9 @@ const App = ({Component, pageProps}) => {
                   </Link>
                   <Link 
                     className={cn("text-lg py-2", currentPath === "/resume" && "font-bold")} 
-                    href="/resume"
+                    href="/Parth_Kansara_Resume.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
                   >
                     resume
                   </Link>
