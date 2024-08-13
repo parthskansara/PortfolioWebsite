@@ -160,7 +160,7 @@ const App = ({Component, pageProps}) => {
           </div>
           {isMobileMenuOpen && (
               <div className="lg:hidden absolute top-[70px] right-[30px] bg-white shadow-lg z-50">
-                <nav className='flex flex-col space-y-4 p-4'>
+                <nav className='flex flex-col space-y-4 p-4 px-8'>
                   <Link 
                     className={cn("text-lg py-2", currentPath === "/" && "font-bold")} 
                     href="/"
