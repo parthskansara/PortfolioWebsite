@@ -73,8 +73,8 @@ function Contact() {
                                     
                                     {
                                         link.title === "Leetcode" &&
-                                        
-                                        <div className="flex justify-center items-center mt-4">    
+                                    <div className="flex flex-col">
+                                        <div className="flex flex-row justify-center items-center mt-4">    
                                             <img 
                                                 className="h-[5vh] lg:h-[10vh] lg:w-[10vh]" 
                                                 src="https://assets.leetcode.com/static_assets/marketing/2023-50.gif"
@@ -84,13 +84,21 @@ function Contact() {
                                                 className="h-[5vh] lg:h-[10vh] lg:w-[10vh]" 
                                                 src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif"
                                                 alt="Badge - 50 Days 2024"
-                                            />                                             
+                                            />
+                                        </div>
+                                        <div className="flex flex-row justify-center items-center mt-4">                                            
                                             <img 
                                                 className="h-[5vh] lg:h-[10vh] lg:w-[10vh]" 
                                                 src="https://assets.leetcode.com/static_assets/public/images/badges/2024/gif/2024-07.gif"
-                                                alt="Daily Coding Challenge - July 2024"
+                                                alt="Badge - July 2024"
+                                            />
+                                            <img 
+                                                className="h-[5vh] lg:h-[10vh] lg:w-[10vh]" 
+                                                src="https://assets.leetcode.com/static_assets/others/Premium_Algo_100.gif"
+                                                alt="Badge - Study Plan - Premium Algo 100"
                                             />
                                         </div>
+                                    </div>
                                     }
                                     </div>
                                 </CardContent>
