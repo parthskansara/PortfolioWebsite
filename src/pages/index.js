@@ -13,7 +13,7 @@ export default function Home() {
                 <meta name="Portfolio Website" content="A Snapshot of my entire Journey"/>
                 <link rel="icon" href="/icon/favicon.png"/>
             </Head>
-            <div className='home-page flex flex-col lg:flex-row justify-center mt-[130px] lg:gap-8 '>
+            <div className='home-page flex flex-col lg:flex-row justify-center mt-[130px] mb-[35vh] lg:gap-8 '>
                 <div className='mx-auto lg:justify-end lg:w-[40vw] '>
                     <Avatar className='w-[30vh] h-[30vh] lg:w-[40vh] lg:h-[40vh] border-4 border-black lg:ml-auto'>
                         <AvatarImage src="/a2.png" />
@@ -27,9 +27,13 @@ export default function Home() {
                     <Separator className='my-2'/>
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                     <p>I'm a software developer, with a proficiency in Java, Python and JavaScript.</p>
-                </div>
-                
+                </div>                             
             </div>
+            <div className='flex justify-center'>
+                <h1>Skills</h1>
+
+            </div>
+            
         </div>
     )
 }
