@@ -26,7 +26,7 @@ export default function Home() {
                     <span className='text-3xl lg:text-6xl font-bold mb-2'>Parth Kansara</span>
                     <Separator className='my-2'/>
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
-                    <p>I'm a software developer, with a proficiency in Java, Python and JavaScript.</p>
+                    <p>I'm a software developer, with proficiency in Java, Python and JavaScript.</p>
                 </div>                             
             </div>
             <div className='flex justify-center'>
