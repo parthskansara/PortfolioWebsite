@@ -9,12 +9,15 @@ import {
 
 const TopicCard = ({topic}) => {
     return (
-        <div className="topic-card flex px-4 mt-8">
-            <Card>
-                <CardHeader>{topic.name}</CardHeader>
-                <CardDescription className='justify-center '>
-                    {topic.description}
-                </CardDescription>
+        <div className="topic-card flex px-4 mx-8 mt-8">
+            <Card className="border-2 border-black py-2">
+                <CardHeader>
+                    <CardTitle className="text-lg">{topic.name}</CardTitle>
+                    <CardDescription className='text-md pb-4'>
+                        {topic.description}
+                    </CardDescription>
+                </CardHeader>
+                
             </Card>
         </div>
     );

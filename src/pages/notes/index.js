@@ -13,20 +13,20 @@ export default function Notes() {
     {
         id: 'ds',
         name:'Data Structures',
-        description: '',
-        link: '/notes/algo/Algorithms.html',
+        description: 'Details a bunch of data structures and their related methods',
+        link: '/notes/ds/DataStructures.html',
     },
     {
         id: 'java',
         name:'Java Basics',
-        description: '',
-        link: '/notes/algo/Algorithms.html',
+        description: 'Explains some basic concepts of Java',
+        link: '/notes/java/Java.html',
     },
     {
         id: 'crabs',
         name:'Hermit Crabs',
-        description: '',
-        link: '/notes/algo/Algorithms.html',
+        description: 'Describes concepts related Hermit Crabs and wealth inequality',
+        link: '/notes/crabs/HermitCrabs.html',
     },   
 ];
 
