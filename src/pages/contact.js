@@ -121,11 +121,11 @@ function Contact() {
                                                             src="https://assets.leetcode.com/static_assets/marketing/2024-100-new.gif"
                                                             alt="Badge - 100 Days 2024"
                                                         />
-                                                        {/* <img 
+                                                        <img 
                                                             className="h-[5vh] lg:h-[10vh] lg:w-[10vh]" 
-                                                            src="https://assets.leetcode.com/static_assets/others/Premium_Algo_100.gif"
-                                                            alt="Badge - Study Plan - Premium Algo 100"
-                                                        /> */}
+                                                            src="https://assets.leetcode.com/static_assets/public/images/badges/2024/gif/2024-08.gif"
+                                                            alt="Badge - August 2024"
+                                                        />
                                                     </div>
                                                 </div>
                                         }
