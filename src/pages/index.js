@@ -29,11 +29,6 @@ export default function Home() {
                     <p>I'm a software developer, with proficiency in Java, Python and JavaScript.</p>
                 </div>                             
             </div>
-            <div className='flex justify-center'>
-                <h1>Skills</h1>
-
-            </div>
-            
         </div>
     )
 }
