@@ -64,7 +64,9 @@ function Contact() {
     return (
         <div>
             {/* eslint-disable-next-line react/no-unescaped-entities */}
-            <p className="text-center text-3xl lg:text-5xl font-bold mt-[8vh] mb-[5vh]">Let's Connect!</p>
+            <p className="text-center text-2xl lg:text-4xl font-bold mt-[8vh] mb-[1vh]">There's more...</p>
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            <p className="text-center text-lg lg:text-2xl font-bold mb-[5vh]">and I'd love to tell you!</p>
             <div className="flex justify-center">
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 md:grid-cols-3 gap-6 max-w-4xl">
                     
@@ -73,7 +75,7 @@ function Contact() {
                             <Card className="w-[40vw] sm:w-[40vw] md:w-[15vw]">
                                 <CardHeader>
                                     <CardTitle className="flex justify-center text-md lg:text-xl ">{link.title}</CardTitle>
-                                    <CardDescription className="flex text-xs lg:text-base justify-center">{link.description}</CardDescription>
+                                    <CardDescription className="flex text-xs lg:text-sm justify-center">{link.description}</CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex justify-center text-3xl">
                                     <div className="flex flex-col justify-center items-center">
