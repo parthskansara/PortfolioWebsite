@@ -93,6 +93,20 @@ function Contact() {
                                                     <div className="flex flex-row justify-center items-center mt-4">     
                                                              <img 
                                                                 className="h-[5vh] lg:h-[10vh] lg:w-[10vh]" 
+                                                                src="https://assets.leetcode.com/static_assets/marketing/2024-200.gif"
+                                                                alt="Badge - 200 Days 2024"
+                                                            />
+                                                            <img 
+                                                                className="h-[5vh] lg:h-[10vh] lg:w-[10vh]" 
+                                                                src="https://assets.leetcode.com/static_assets/public/images/badges/2024/gif/2024-10.gif"
+                                                                alt="Badge - October 2024"
+                                                            />
+                                                           
+                                                    </div>
+                                                
+                                                    <div className="flex flex-row justify-center items-center mt-4">     
+                                                             <img 
+                                                                className="h-[5vh] lg:h-[10vh] lg:w-[10vh]" 
                                                                 src="https://assets.leetcode.com/static_assets/public/images/badges/2024/gif/2024-08.gif"
                                                                 alt="Badge - August 2024"
                                                             />
