@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/google-scholar",
+      "destination": "https://scholar.google.com/citations?user=yqTFjSIAAAAJ&hl=en"
+    }
+  ]
+}
