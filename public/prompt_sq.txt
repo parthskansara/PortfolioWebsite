@@ -1,0 +1,321 @@
+imagine you're a recruiter hiring for the following job posting:
+
+Job Position: 
+Job Description:
+
+
+the candidate's profile is as follows:
+
+EDUCATION
+
+Stony Brook University Stony Brook, NY
+Masters of Science in Computer Science (Thesis), CGPA: 3.9/4 August 2022 - May 2025
+Coursework: Computer Networking, Computer Vision, Operating Systems, Data Mining, Analysis of Algorithms
+
+University of Mumbai Mumbai, India
+Bachelor of Engineering in Information Technology, CGPA: 3.6/4 August 2017 - May 2021
+Coursework: Data Structures and Algorithms, Web Development, Software Engineering and Project Management
+
+PROFESSIONAL EXPERIENCE
+
+Software Engineer Intern August 2023 – April 2024
+AICAN - https://aican.co.in Remote
+• Backend API Engineering: Architected scalable REST APIs with TypeScript and Node.js for a B2B SaaS
+platform, implementing robust error handling and optimizing queries, reducing job creation time by 30%.
+• Data-driven UI Development: Created a customizable workflow using React and Redux for complex state
+management, incorporating user feedback to improve UX with visual cues, boosting feature adoption among clients.
+• Performance Optimization: Implemented Next.js for critical services within the microservices architecture,
+enhancing load times and SEO, while prioritizing feature rollouts to cater to existing client needs efficiently.
+• Real-Time Data Streaming: Rewrote the data telemetry module by implementing MQTT over WebSockets,
+which improved latency and reliability, enabled robust real-time monitoring, and cut failure response time by 50%.
+
+The following details some more of the tasks that I worked on at AICAN:
+"S :
+- Created a customizable job creation workflow
+- Allowed users to update requirements and specification, allocate resources and estimate costs
+T :
+- Complicated feature including a series of forms and a lot of different input fields
+- Realized it could be an issue for our primary users who were non-technical
+A :
+- After building an MVP, suggested getting user feedback to improve UX
+- No dedicated UI team, so I offered to do it
+- Visited client's factory and spoke to the floor managers - understood what they liked and disliked about the feature
+- Took some suggestions from them - also researched how to improve UI
+- Added visual cues (button colors and shapes) and native language support for some pages
+- Went through many iterations to make sure best UX delivered
+R :
+- The new feature was quickly adopted by our clients 
+- Time spent on job creation reduced by 30% (from 20 mins to 15 mins)
+- Positive feedback - indicated that addition of visual cues and native language support helped floor managers in effectively using the feature everyday
+
+"
+"S: 
+- One of the features was displaying sensor data from factories in the web dashboard
+- IoT Team had set up a pipeline for fetching data from sensors using HTTP polling
+T:
+- However, there were several user complaints because of the delay and inconsistency in data
+A:
+- I decided to step up and offered to help out the IoT team
+- Had previous experience with data telemetry using MQTT
+- Sat down with the IoT team to understand if this could be used in our usecase
+- Explained how WebSockets + MQTT could resolve latency issues by creating a persistent full-duplex connection
+- Once the idea was approved, I helped the IoT team with writing the code to integrate WebSocket API with an MQTT broker
+R:
+- Improved latency and reliability, effectively reducing failure response times by 50%
+
+"
+"S: 
+- Working on improving performance and customer experience of the overall platform
+- Project Manager proposed shifting the entire project to Next.js to improve performance and prepare us for future growth
+- The project manager was very enthusiastic about the adoption and was confident that it would prove useful in the longer run
+
+T: 
+- I realized this was not a good idea and decided to point it out in the standup
+A:- I highlighted in the meeting that this would complicate our codebase, and reduce our development speed
+- Project manager heard my opinion but suggested we go ahead with the adoption as it would improve load times and SEO which could help attract more clients
+- I decided to look at performance metrics and estimated how much improvement was possible using Next.js
+- in the following meeting, I highlighted that the current metrics were not significantly bad, and the cost paid for improvement would be much higher
+- User feedback mainly included feature requests and barely any complaints about load times
+- I also emphasized that we should prioritize catering the needs of our current clients over focusing on SEO for future clients
+- when the manager was still reluctant, I suggested an incremental approach - implementing next.js for critical pages, while also focusing on rolling out more features
+R:
+- after discussing with the technical co-founder, project manager agreed to adopt an incremental approach
+- This compromise allowed us to leverage Next.js's strengths and improve load times on critical pages, without sacrificing development speed
+"
+
+Knowledge Systems Lab, Stony Brook University New York, USA
+AI Research Team Member September 2023 - December 2023
+• LLM-based Analytics: Led an AI-driven ESG analysis project using LLMs (GPT-4 & Llama 2), HuggingFace Transformers, and RAG workflows using ChromaDB & LangChain. Processed data for 300+ companies,
+reducing analysis time by 75% compared to traditional methods, with real-time accuracy via retrieval mechanisms.
+• Prompt Engineering: Optimized LLM prompts using LangChain’s PromptTemplate and Few-Shot learning techniques, enhancing the relevance of AI-generated insights, & boosting output accuracy by 45%.
+• Model Observability: Developed a robust validation pipeline with custom metrics using Weights & Biases, augmenting RAG workflow observability which yielded a 55% increase in the actionability of ESG commentary.
+
+
+Knowledge Systems Lab, Stony Brook University New York, USA
+Research Team Member February 2023 - May 2023
+• Extracted UI control elements from the UI tree to streamline screenreader actions, improving web page accessibility
+• Trained a TensorFlow image classifier on a custom icon dataset, boosting UI element classification accuracy by 20%
+• Leveraged Python, JavaScript, and Node.js to enable natural language instruction for UI interaction on Gmail’s web page
+
+Software Development Engineer July 2021 – July 2022
+Gallagher Re - https://ajg.com Remote
+• Full Stack Development: Enhanced iFM Online, a financial modeling web application using Core Java, J2EE,
+JSPs, Maven, and Spring, alongside CI/CD tools, following Scrum and Agile methodologies.
+• Backend Security Enhancement: Refactored data parsing & sterilized data fields to avoid XSS injections,
+resulting in a 65% reduction in data-related errors and a 100% elimination of identified security vulnerabilities.
+• UX Optimization: Streamlined navigation by fixing redirection issues, decreasing navigation-related support tickets
+by 30% and improved shorthand notation parsing to incorporate user comments, augmenting user experience.
+• Interactive Data Visualization: Engineered a client-facing visualization using Chart.js to represent net benefits
+vs reinsurance costs with dynamic slope calculation for risk assessment, empowering data-driven business decisions.
+
+The following details some more of the tasks that I worked on at Arthur J. Gallagher & Co.:
+"S: 
+- When I started working at Gallagher Re, I had limited knowledge of Java Enterprise Edition
+T: 
+- I had to immediately start working on features as I joined the team
+A: 
+- To perform effectively and deliver results, I gave extra hours to studying in the first month and covered all the essential topics (from Youtube videos as well as tech books like Head First Java). 
+- I also sat down with my senior developers to understand the codebase and the design patterns being used. 
+R: 
+- I was quickly able to get through my assigned features and start contributing towards the upcoming release. 
+- I also became proficient with full stack development and gained a strong grasp over Java. 
+"
+"S:
+- Encountered a critical issue where scenario analysis of reinsurance structures was failing randomly 
+- Complex problem impacting our clients' ability to make accurate financial decisions.
+T:
+- Decided to investigate the issue and understand how the data was being processed
+A:
+- Analyzed logs and data from failed scenario analyses
+- Noted that they occurred specifically when assumptions were imported via Excel files
+- Combed through the codebase to understand the data processing pipeline and identified potential failure points
+- Traced the problem to the lack of proper validation of imported Excel data.
+- Identified that malformed data was causing errors in subsequent calculations for cross-classes and reinsurance structures.
+- Implemented strict checks to ensure data was in the correct format for each field
+- Also added some sanitization steps to clean and standardize incoming data
+R:
+- Eliminated all data-related errors in the scenario analysis feature
+- Increased reliability of financial models
+"
+"S: 
+- At AJG, had to create an interactive plot of CDF of Net Benefit vs Cost of Reinsurance to help users make better decisions
+T:
+- To deliver a more intuitive feature, I focused on understanding what the concepts are and how it would be used by the users to take a decision
+A:
+- Spoke to Quant developer who explained the meaning of Net Benefit and Cost of Reinsurance and their correlation, and how its slope can be used to assess risk
+- Also spoke to the BA to understand the client's requirements 
+R:
+- Gained comprehensive understanding of both technical and business aspects of the task
+- Added a feature to calculate and display slope of the curve at any point to help in risk assessment
+- Wasn't in original requirements, but was highly praised by the client
+
+"
+
+
+DJ Init.AI Mumbai, India
+Vice President and Senior Mentor Jul 2020 - Aug 2021
+- Led the operations for the official AI club of my institution, aimed at guiding junior students interested in this domain
+- Mentored 10 selected juniors for their individual research projects across Computer Vision, NLP and Deep Learning
+- Invited as a judge on multiple panels to evaluate AI projects and provide guidance to students pursuing research
+
+DJS Kronos India Mumbai, India
+Validation and Simulation Head March 2019 - September 2019
+- Supervised the validation process of the design geometry of the all-terrain vehicle developed by the Design Team
+- Simulated the vehicle suspension and chassis vibration using Simscape Multibody in MATLAB to find caveats in design
+- Selected for the coveted MATLAB Expo 2019 at BAJA SAE 2019 as a result of our work in all-terrain vehicle simulation
+
+Tata Consultancy Services
+Software Engineer Intern December 2019 - February 2020
+- Identified 4 classes of fraudulent activities in airline booking data via natural language processing on open-source datasets
+- Performed feature engineering and trained an advanced outlier detection model using Python 3 with an 87% accuracy
+- Deployed the machine learning model in a web application using the MERN stack (MongoDB, Express.js, React, Node.js)
+
+Research et al. Mumbai, India
+Co-founder & Research Lead April 2020 - July 2021
+- Bootstrapped an organization committed to inspiring and guiding engineering students to pursue applied research
+- Oversaw research in over 8 projects involving AI/ML, Computer Vision, NLP & Deep Learning
+- Oversaw operations within our team of 8 members and collaborated with over 100 students across the country
+- Leveraged business analytics using Python 3 and was able to generate INR 1 million in revenue from multiple streams
+
+TECHNICAL SKILLS
+
+Programming Languages: Java, Python 3, JavaScript, C++, SQL, Bash
+Web Development Frameworks: HTML5, CSS, Servlets, JSP, Struts 2.0, MVC, Spring, Express.js, React, Node.js, Django
+Databases: MySQL, Microsoft SQL Server, NoSQL - MongoDB, AWS RDS
+Version Control and Deployment: GitHub, GitLab, Docker, Amazon Web Services AWS, Google Cloud Platform
+Concepts: Object oriented Programming, MVC, Agile Methodologies, REST APIs, Algorithms, Cloud Computing
+
+PROJECTS
+
+MCP server for Generating Custom Cover Letters March 2025
+Stony Brook University [Python, FastMCP]
+• Prototyped a Model Context Protocol server that analyzes candidate profiles against job postings to generate tailored
+cover letters, highlighting relevant skills and experiences that match specific requirements, improving application quality
+
+listentothis,bro - Chrome Extension to Simplify Music Sharing on Spotify [Live] February 2025
+Stony Brook University [React, TypeScript, Node.js, MongoDB]
+• Developed a Chrome extension enabling instant song sharing directly into friends’ Spotify playlists, streamlining music
+recommendation and reducing chat clutter. Live on Chrome Web Store, waiting for Spotify API’s Extended Quota approval.
+
+AI-driven Exploration of Patient Characteristics in Clinical Trials August 2023
+Stony Brook University [Python 3, Selenium, BeautifulSoup4, OpenAI Chat Completion API]
+- Scraped the clinicaltrials.gov website, and implemented prompt engineering on OpenAIâ€™s GPT-3.5 Turbo via Chat
+Completion API to identify inclusion and exclusion criteria to assess patient representativeness and safety measures
+
+A Review on In-Memory Caching Systems: Scalability, Efficiency and Optimizations May 2023
+Stony Brook University. Mentor: Dongyoon Lee
+- Exploring Segcache and related in-memory caching systems, focusing on scalability, efficiency, and optimizations in
+key-value stores like Memcached and Redis
+
+The Evolution of Operating Systems: A Comprehensive Review of 19 Milestone Papers ï‚› March 2023
+Stony Brook University. Mentor: Dongyoon Lee
+- Studied OS design, system calls, schedulers, concurrency, memory allocation, file systems, virtualization, and testing
+
+Turning Labels into Images: A Pix2Pix Based Facade Generator ï‚› December 2022
+Stony Brook University. Mentor: Dimitris Samaras [Python 3, OpenCV, PyTorch]
+- Implemented the pix2pix GAN model for image-to-image translation, training with L1 and L1 + cGAN loss, along with
+spectral normalization for stabilization and performance improvement
+
+TelePhysio: Telemedicine Platform for Remote Physical Therapy October 2022
+Stony Brook University [Java, Spring Framework, Docker, Kubernetes, Minikube, MySQL, WebRTC]
+- Developed a Java based telemedicine application for remote physical therapy, containerized with Docker & orchestrated
+using local Kubernetes clusters via Minikube, with Spring, WebRTC, and OOP for real-time sessions and data management
+
+
+Pcapture: PCAP Analysis Tool for TCP and HTTP Flows in Networking ï‚› September 2022
+Stony Brook University. Mentor: Aruna Balasubramanian [Python 3, dpkt library]
+- Built a tool for analysing and assessing the attributes of the TCP & HTTP protocols from PCAP files using the dpkt library
+
+DomainHunter: DNS/DNSSEC resolver ï‚› September 2022
+Stony Brook University. Mentor: Aruna Balasubramanian [Python 3, dnsPython 3 library]
+- Developed a DNS resolver from scratch with support for DNSSEC to strengthen the authentication based on public key
+cryptography using the dnsPython 3 library, along with an in-built dig tool
+
+EduStack: A Smart e-Learning Platform March 2021
+University of Mumbai [Python 3, Django, Django REST framework, JavaScript, Node.js, React, MySQL]
+- Engineered a Python 3 full-stack web application, facilitating community-based education exchange via REST APIs
+
+Vision and Language Navigation using Minimal Voice Instructions March 2021
+University of Mumbai [C++, Python 3, JavaScript, HTML, GCP, Shell scripting]
+- Designed a navigation algorithm using YOLOv3 and a graph-based path planning module for the traversal of a virtual agent
+in a 3D space using the Matterport API
+
+Portfolio Website Redesign for a Graphic Designer February 2021
+Dwarkadas J. Sanghvi College of Engineering [React, Node.js, Express, MongoDB, JavaScript]
+- Transformed a graphic designerâ€™s existing portfolio website to enhance the UX, reducing the overall bounce rate by 21%
+
+PR-FLT: Pulse Rate Measurement using Facial Landmark Tracking [Publication] December 2020
+University of Mumbai. Mentor: Purva Raut [Python 3, PyTorch, OpenCV]
+- Implemented low-cost non-invasive heart rate measurement by capturing head motions from facial video
+
+the candidate's publications are as follows. Only mention them if they are relevant to the role:
+
+Siamese Network-Based System for Criminal Identification
+Date Published: September 21, 2022
+
+Abstract
+To discourage criminal activities, the large number of CCTV installations throughout the country play a crucial role. Through this paper, we propose an AI-based solution that can leverage these devices to remotely identify and report absconding criminals. Using the one-shot learning approach, we present a face recognition algorithm that yields accurate results even with low training data. The Siamese Network architecture is used to verify if the face embeddings of the image detected is the same as that of the criminal. Two parallel neural networks are designed to take one input each- one being the detected face and the other being an embedding from the dataset. The outputs of the two networks are compared to predict whether the detected face is the same as the input face or not. This algorithm is further integrated with an automated model for updating the information of the recognized criminal into the database along with updating the appropriate law enforcement authorities about the last known whereabouts.
+
+Renewable Energy System Using Thermoelectric Generator (RESTEC)
+Date Published: June 30, 2021
+
+Abstract
+Continuous variable transmission (CVT) systems are widely used in all-terrain vehicles (ATV). Over long runs, the sheaves of CVT generate sufficient amount of heat energy and get damaged due to friction between the sheaves and belt mainly due to clutch slippage during acceleration and deceleration. This further deteriorates the condition and performance of the vehicle, and breakdown is also discovered as a worst-case scenario. A novel method has been developed and implemented by creating a renewable energy system to maintain the temperature of CVT and improve longevity. The renewable energy system makes use of thermoelectric generators (TEG) working on the principle of Seebeck effect to utilize the heat dissipated from the exhaust chamber of engine which comprises of 80% of the waste energy of the ATV and is used for cooling the CVT.
+
+PRFLT: Pulse Rate measurement using Facial Landmark Tracking
+Date Published: February 28, 2021
+
+Abstract
+In recent studies on non-invasive techniques for heart rate measurements, various Computer Vision algorithms based on Ballistocardiography (BCG) have been employed. This method captures minimal head motions from facial videos, that result from the pumping of blood to the head through the carotid arteries, at each cardiac cycle. We move towards BCG because the conventional technique of Photoplethysmography (PPG) fails to yield accurate results from facial video in case of skin color variations. This paper proposes an improved system for accurately measuring the heart rate and heart rate variability to infer important information about the subjectâ€™s health. It incorporates functions from the Dlib toolkit, which provide robust face detection along with facial landmark tracking. Relevant data in terms of facial video and ground truth was acquired from 5 test subjects, in 3 states - sitting, standing and post exercise. The system exhibits promising results when validated using a wearable smart watch with inbuilt heart rate sensor.
+
+Citations: 5
+
+Vision and Language Navigation Using Minimal Voice Instructions
+Date Published: June 30, 2021
+
+Abstract
+The proposed system aims to design an algorithm that can navigate any 3-D mapped environment using the Matterport 3D Simulator with minimal voice instructions. During the training phase, the nodes of a selected environment are traversed sequentially in the Simulator, and an object recognition algorithm is applied to the panorama at each node. This helps in identifying and tagging the objects in the vicinity of each viewpoint. For the testing phase, a natural language instruction specifying the goal location is taken as input. The goal location is identified from among the various viewpoints in the 3D environment by matching it to the tags generated in the testing phase. A shortest path algorithm is employed to navigate from the starting location to the goal location. The proposed system focuses on the implementation of an algorithm that combines natural language processing and computer vision and can be employed by agents for indoor navigation.
+
+A Review of Integrating Machine Vision and NLP for Indoor Navigation
+Date Published: January 31, 2021
+
+Abstract
+Navigating in an indoor environment is a complex task because of the accuracy that it demands and the inability of the outdoor technologies to deliver such accuracy. Since GPS has been rendered inaccurate through walls and roofs, alternate technologies for indoor navigation have been a topic of research for many years. While many have advocated the use of sensor-based approaches, others have tried to integrate computer vision models into navigation algorithms. Recent advancements have integrated natural language instructions, along with computer vision techniques for navigating within the indoor environment. This paper aims to draw a comparison between the existing techniques for indoor navigation.
+Read Less
+
+Citations: 1
+
+Performance analysis of deep learning and statistical models on enhancing stock market portfolio
+Date Published: November 30, 2020
+
+Abstract
+Time series data is considered very useful in the domains of business, finance, and economics. Stock market data specifically is generated at high volumes and excessively used for forecasting purposes for gaining wealth. The problem is challenging due to the dynamic nature of stock market fluctuations. Conventional techniques for prediction of the next lag of time series data have been successful to an extent with statistical algorithms such as Exponential Smoothing and Autoregressive Integrated Moving Average (ARIMA). With the advent of deep learning architectures and advanced computational processors, we analyze the performance of such techniques for stock market forecasting. The paper presents a performance comparison of Exponential Smoothing, ARIMA, Vanilla LSTMs, and Stacked LSTM models. The empirical analysis concludes the superior performance of deep learning techniques with an RMSE score as low as 3.208 on daily closing price stock data for a period of ten years. Furthermore, we also propose a portfolio optimization method to calculate returns and maintain profits while trading in the stock market.
+
+A Statistical Approach Towards Improving Virtual Internship Experience
+Date Published: October 31, 2020
+
+Abstract
+First-hand industry exposure in terms of internships is becoming fairly common among students of all fields of education. It allows students to gain insights about a particular job role, a particular company and its work culture along with a plethora of learning and networking opportunities. Lately, in lieu of social distancing and remote work culture taking over, virtual internships are replacing the traditional ones. However, the efficacy of a virtual internship needs to be thoroughly examined. Through this paper, we aim to highlight the various challenges that exist in a virtual internship, that need to be overcome to ensure a successful experience for the students. A survey conducted for the scope of this paper bolsters the claims made by the authors and various data analysis tools are used to generate insights into the same. Based on this, an effective model is proposed which takes into account all the key challenges faced by the students and ensures a virtual internship experience that is fruitful for both, the students and the company itself.
+Read Less
+
+Citations: 2
+
+The Influence of Global Indexes on the Indian Stock Market Based on Causality and Cointegration
+Date Published: October 31, 2020
+
+Abstract
+The opening of markets in different emerging countries during the 80s and 90s culminated in the influx of savings or funds from different countries that are developed. This certainty makes the stock exchange a significant financial operation for brokers to benefit from it. A constant or progressive linkage occurs between the developed and developing economies. Due to a higher degree of transparency and developed economies, the flow of information from them in various time zones has a huge influence on our domestic economy. The present study investigates the inter dependence among global markets and finding a relationship between them using econometric models based on secondary data. This report combines knowledge from three capital markets: FTSE, S&P 500 Index and the NIFTY50 from the years of 2008-2018. The study employs multiple econometric models on weekly closing prices to analyze the relation between the global markets in long run and short run and also discuss the impacts and future of the financial market.
+Read Less
+
+Citations: 2
+
+Co-ordinate Measurement of Roll-Cage Using Digital Image Processing
+Date Published: November 30, 2019
+
+Abstract
+This paper proposes a unique and novel approach for co-ordinate measurement of an all-terrain vehicle. The manufactured roll-cage is replete with minute errors which are introduced during the process. The suspension points on the roll-cage have been considered as dataset for this algorithm, as they are an integral part in the performance of the vehicle and for maintaining suspension geometry. A feasible method using image processing techniques such as shade correction, adaptive binarization, and segmentation has been used to improve fault tolerance by analyzing and reducing the manufacturing errors with respect to the computer-aided design model. A MATLAB script has been developed for the proposed method with the help of image processing toolbox.
+
+===============================================================================================================================
+YOUR TASK:
+
+You were really impressed by the candidate's answer to the question "" asked on the job application, because it stood out from the generic answers. The candidate's answer was personal, thoughtful and highlighted all of the stuff from the candidate's profile that are a thorough match with the role's requirements. Along with that, the answer displayed his excellence, sincerity and alignment with your company values, without using any overused buzzwords. What was the answer that matched the tone of the job description?
