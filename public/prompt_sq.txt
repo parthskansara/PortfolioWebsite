@@ -1,7 +1,48 @@
 imagine you're a recruiter hiring for the following job posting:
 
-Job Position: 
+Job Position: Software Engineer, Full-Stack at ReScale
 Job Description:
+Rescale is high performance computing built for the cloud. We empower engineers while giving IT security and control. From supersonic jets to personalized medicine, industry leaders are bringing new product innovations to market with unprecedented speed and efficiency. Rescale is a cloud platform delivering intelligent full-stack automation and performance optimization. IT leaders use Rescale to deliver HPC-as-a-Service with a secure control plane to deliver any application, on any architecture, at any scale on their cloud of choice.
+
+We are seeking a product-focused software engineer to join our team! 
+
+Some of the things you will work on and impact:
+
+own end-to-end delivery of essential, core functionality for Rescale customers as well as rapidly iterating on new product ideas.
+
+work with your teammates to build and maintain high quality automation for building and testing our main customer-facing platform.
+
+develop and maintain critical areas of the product including identity management, elastic cloud workstations, and job metadata.
+
+build a scalable frontend foundation for other internal engineering teams to use.
+
+What we’re looking for: 
+
+2+ years of full-stack experience building performant, modern UIs using React and Typescript as well as backend web application development.
+
+Expertise or strong interest in the following areas: web performance optimization (including ORM and DB profiling), deploying and scaling web applications using cloud services, application security
+
+High enthusiasm for supporting both rapid proof-of-concept prototypes as well as robust, mission critical components for both internal and external stakeholders.
+
+Comfortable with ambiguity, strong user-first mindset, and ability to come up with non-regrettable technical solutions.
+
+Flexibility and dedication to work with designers, product managers, and other engineers in a team to ship exceptional software.
+
+BS in Computer Science or equivalent experience.
+
+Diversity, equity, inclusion and belonging are fundamental to our success. We strive to be a workplace where we: 
+
+Welcome ALL and ALL are welcome.
+
+Show up with our whole selves or whichever parts of ourselves we’re comfortable sharing, and be ready to see the same in others. 
+
+Be ready to learn, unlearn, and learn again. 
+
+Respect others and their opinions. We practice empathy in the way we interact with each other and celebrate uniqueness as a team. 
+
+Seek to understand - ask more questions than one makes statements.
+
+Provide safety from judgment and preserve a collaborative environment.
 
 
 the candidate's profile is as follows:
@@ -187,6 +228,10 @@ Concepts: Object oriented Programming, MVC, Agile Methodologies, REST APIs, Algo
 
 PROJECTS
 
+OSCAR: Open Source Contribution AI Roadmap [Live] [Python, FastAPI, React, TypeScript] April 2025
+• Developed an LLM-powered platform to provide personalized GitHub issue recommendations and step-by-step
+contribution roadmaps based on developer skill level, reducing the barrier to entry for open source contributions.
+
 MCP server for Generating Custom Cover Letters March 2025
 Stony Brook University [Python, FastMCP]
 • Prototyped a Model Context Protocol server that analyzes candidate profiles against job postings to generate tailored
@@ -318,4 +363,4 @@ This paper proposes a unique and novel approach for co-ordinate measurement of a
 ===============================================================================================================================
 YOUR TASK:
 
-You were really impressed by the candidate's answer to the question "" asked on the job application, because it stood out from the generic answers. The candidate's answer was personal, thoughtful and highlighted all of the stuff from the candidate's profile that are a thorough match with the role's requirements. Along with that, the answer displayed his excellence, sincerity and alignment with your company values, without using any overused buzzwords. What was the answer that matched the tone of the job description?
+You were really impressed by the candidate's answer to the question "Why is this role with Rescale exciting to you?" asked on the job application, because it stood out from the generic answers. The candidate's answer was personal, thoughtful and highlighted all of the stuff from the candidate's profile that are a thorough match with the role's requirements. Along with that, the answer displayed his excellence, sincerity and alignment with your company values, without using any overused buzzwords. What was the answer that matched the tone of the job description?

@@ -187,6 +187,11 @@ Concepts: Object oriented Programming, MVC, Agile Methodologies, REST APIs, Algo
 
 PROJECTS
 
+
+OSCAR: Open Source Contribution AI Roadmap [Live] [Python, FastAPI, React, TypeScript] April 2025
+• Developed an LLM-powered platform to provide personalized GitHub issue recommendations and step-by-step
+contribution roadmaps based on developer skill level, reducing the barrier to entry for open source contributions.
+
 MCP server for Generating Custom Cover Letters March 2025
 Stony Brook University [Python, FastMCP]
 • Prototyped a Model Context Protocol server that analyzes candidate profiles against job postings to generate tailored
